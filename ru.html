@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <title>Logistika</title>
+    <meta name=”robots” content=”index”>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+    <!-- ***** meta keywords ***** -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <!--  *************** Styles Connecting  ************** -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/apiRequest.js"></script>
+    <!-- *************************************************** -->
+</head>
+<body>
+<header class="section_menu">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Menyu navigatsiya">
+                        <span class="navbar-toggler-svg">
+                            <img src="./images/menu_bars.svg" alt="">
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav collapse__navbar-link">
+                            <li class="nav-item">
+                                <a class="nav-link activeClassForMenu" href="#">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ДЛЯ БИЗНЕСА</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ДЛЯ ВОДИТЕЛЕЙ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">МЕЖДУНАРОДНЫЕ ПЕРЕВОЗКИ</a>
+                            </li>
+                        </ul>
+                        <ul class="collapse__navbar-nav navbar-nav">
+                            <li class="nav-item call_number_area">
+                                <a class="nav-link" href="tel:1055">
+                                    <img src="./images/menu_phone_icon.png" alt="menu phone icon">
+                                    <span>1055</span>
+                                </a>
+                            </li>
+                            <li class="nav-item call_area">
+                                <a class="nav-link" href="#">
+                                    <button class="btn btn-warning">Перезвоните мне</button>
+                                </a>
+                            </li>
+                            <li class="nav-item nav_lang">
+                                <a class="nav-link" href="index.html">
+                                    <button class="btn btn-warning"><span>UZ</span></button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="backgroung_area"></div>
+    </div>
+</header>
+
+<section class="section_header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 leftSite">
+                <img src="./images/slider_car.png" alt="slider_car">
+            </div>
+            <div class="col-4 offset-1 rightSite">
+                <div class="brend_area">
+                    <img src="./images/slider_logo.png" alt="slider_logo">
+                </div>
+                <div class="text-content">
+                    <h3>Мы доставим <br>
+                        к вашему порогу</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map_instruction">
+    <img src="img/stop.png" alt="stop" class="stop_img">
+    <div class="filter_calc_block">
+        <div class="filter_call">
+            <div class="social_bar">
+                <ul>
+                    <li><a href="https://www.facebook.com/pickapp.uz/"><i class="">
+                        <svg width="24" height="24" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99992 0.333008C3.31792 0.333008 0.333252 3.31767 0.333252 6.99967C0.333252 10.327 2.77125 13.085 5.95859 13.5857V8.92634H4.26525V6.99967H5.95859V5.53101C5.95859 3.86034 6.95325 2.93767 8.47659 2.93767C9.20592 2.93767 9.96859 3.06767 9.96859 3.06767V4.70767H9.12859C8.29992 4.70767 8.04192 5.22167 8.04192 5.74901V6.99967H9.89059L9.59525 8.92634H8.04192V13.5857C11.2286 13.0857 13.6666 10.3263 13.6666 6.99967C13.6666 3.31767 10.6819 0.333008 6.99992 0.333008Z"
+                                  fill="url(#paint0_linear)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="0.333252" y1="6.95934" x2="13.6666" y2="6.95934"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1E2E3D" stop-opacity="0.95"/>
+                                    <stop offset="1" stop-color="#152331"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </i></a></li>
+                    <li><a href="https://www.instagram.com/pickapp_uz/"><i class="">
+                        <svg width="24" height="24" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99992 0.333008C8.81125 0.333008 9.03725 0.339674 9.74792 0.373008C10.4579 0.406341 10.9413 0.517675 11.3666 0.683008C11.8066 0.852341 12.1773 1.08167 12.5479 1.45167C12.8869 1.78494 13.1492 2.18807 13.3166 2.63301C13.4813 3.05767 13.5933 3.54167 13.6266 4.25167C13.6579 4.96234 13.6666 5.18834 13.6666 6.99967C13.6666 8.81101 13.6599 9.03701 13.6266 9.74767C13.5933 10.4577 13.4813 10.941 13.3166 11.3663C13.1497 11.8115 12.8873 12.2148 12.5479 12.5477C12.2146 12.8866 11.8115 13.1488 11.3666 13.3163C10.9419 13.481 10.4579 13.593 9.74792 13.6263C9.03725 13.6577 8.81125 13.6663 6.99992 13.6663C5.18859 13.6663 4.96259 13.6597 4.25192 13.6263C3.54192 13.593 3.05859 13.481 2.63325 13.3163C2.18814 13.1493 1.78494 12.887 1.45192 12.5477C1.11286 12.2145 0.85054 11.8113 0.683252 11.3663C0.517919 10.9417 0.406585 10.4577 0.373252 9.74767C0.341919 9.03701 0.333252 8.81101 0.333252 6.99967C0.333252 5.18834 0.339919 4.96234 0.373252 4.25167C0.406585 3.54101 0.517919 3.05834 0.683252 2.63301C0.850076 2.18779 1.11245 1.78456 1.45192 1.45167C1.78503 1.1125 2.1882 0.850161 2.63325 0.683008C3.05859 0.517675 3.54125 0.406341 4.25192 0.373008C4.96259 0.341674 5.18859 0.333008 6.99992 0.333008ZM6.99992 3.66634C6.11586 3.66634 5.26802 4.01753 4.6429 4.64265C4.01777 5.26777 3.66659 6.11562 3.66659 6.99967C3.66659 7.88373 4.01777 8.73158 4.6429 9.3567C5.26802 9.98182 6.11586 10.333 6.99992 10.333C7.88397 10.333 8.73182 9.98182 9.35694 9.3567C9.98206 8.73158 10.3333 7.88373 10.3333 6.99967C10.3333 6.11562 9.98206 5.26777 9.35694 4.64265C8.73182 4.01753 7.88397 3.66634 6.99992 3.66634ZM11.3333 3.49967C11.3333 3.27866 11.2455 3.0667 11.0892 2.91042C10.9329 2.75414 10.7209 2.66634 10.4999 2.66634C10.2789 2.66634 10.0669 2.75414 9.91066 2.91042C9.75438 3.0667 9.66659 3.27866 9.66659 3.49967C9.66659 3.72069 9.75438 3.93265 9.91066 4.08893C10.0669 4.24521 10.2789 4.33301 10.4999 4.33301C10.7209 4.33301 10.9329 4.24521 11.0892 4.08893C11.2455 3.93265 11.3333 3.72069 11.3333 3.49967ZM6.99992 4.99967C7.53035 4.99967 8.03906 5.21039 8.41413 5.58546C8.78921 5.96053 8.99992 6.46924 8.99992 6.99967C8.99992 7.53011 8.78921 8.03882 8.41413 8.41389C8.03906 8.78896 7.53035 8.99967 6.99992 8.99967C6.46949 8.99967 5.96078 8.78896 5.5857 8.41389C5.21063 8.03882 4.99992 7.53011 4.99992 6.99967C4.99992 6.46924 5.21063 5.96053 5.5857 5.58546C5.96078 5.21039 6.46949 4.99967 6.99992 4.99967Z"
+                                  fill="url(#paint0_linear)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="0.333252" y1="6.99967" x2="13.6666" y2="6.99967"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1E2E3D" stop-opacity="0.95"/>
+                                    <stop offset="1" stop-color="#152331"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                    </i></a></li>
+                    <li><a href="http://t.me/pickappuz"><i class="">
+                        <svg width="24" height="24" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99992 13.6663C3.31792 13.6663 0.333252 10.6817 0.333252 6.99967C0.333252 3.31767 3.31792 0.333008 6.99992 0.333008C10.6819 0.333008 13.6666 3.31767 13.6666 6.99967C13.6666 10.6817 10.6819 13.6663 6.99992 13.6663ZM4.92659 7.77967L4.93525 7.77501L5.51525 9.68834C5.58992 9.89568 5.69259 9.93301 5.81725 9.91568C5.94259 9.89901 6.00859 9.83167 6.09059 9.75301L6.88259 8.98767L8.58259 10.2463C8.89325 10.4177 9.11659 10.329 9.19392 9.95834L10.2986 4.74367C10.4206 4.25834 10.2073 4.06367 9.83059 4.21834L3.34192 6.72501C2.89925 6.90234 2.90192 7.15034 3.26192 7.26034L4.92659 7.78034V7.77967Z"
+                                  fill="url(#paint0_linear)"/>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="0.333252" y1="6.99967" x2="13.6666" y2="6.99967"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1E2E3D" stop-opacity="0.95"/>
+                                    <stop offset="1" stop-color="#152331"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                    </i></a></li>
+                </ul>
+            </div>
+            <div class="filterr">
+                <form action="/mainform" method="post" class="form">
+                    <div class="inside_filter">
+                        <input type="hidden" name="_token" value="5j6hYY5TywOufKxiat5cwMaXJT4YCVzhbHmu4opN">
+                        <input id="fromlat" type="hidden" name="fromlat" value="">
+                        <input id="fromlng" type="hidden" name="fromlng" value="">
+                        <input id="tolat" type="hidden" name="tolat" value="">
+                        <input id="tarif_id" type="hidden" name="tarif_id" value="">
+                        <input id="tolng" type="hidden" name="tolng" value="">
+                        <input id="selectedtarifid" type="hidden" name="selectedtarifid" value="">
+                        <div class="filter_block1">
+                            <div class="adress_from">
+                                <input type="text" tabindex=1 class="adresss1 controls" id="origin-input"
+                                       onchange="changed()" name="from" placeholder=" Откуда?">
+                                <!-- geolokatsiyani aniqlash-->
+                                <button type="button" class="my_location" onclick="mygeoloc()"><img
+                                        src="img/target.png"></button>
+                            </div>
+                            <!--                            o'zgartirish tugmasi-->
+                            <div class="change_btn">
+                                <div class="svg">
+                                    <svg width="5" height="5" viewBox="0 0 9 11" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 7.33366V5.50033L8.625 7.79199L6.33333 10.0837V8.25033H0.833333V7.33366H6.33333ZM2.66667 0.916992V2.74987L8.16667 2.75033V3.66699H2.66667V5.50033L0.375 3.20866L2.66667 0.916992Z"
+                                              fill="url(#paint0_linear)"/>
+                                        <defs>
+                                            <linearGradient id="paint0_linear" x1="0.375" y1="5.50033" x2="8.625"
+                                                            y2="5.50033" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#1E2E3D" stop-opacity="0.95"/>
+                                                <stop offset="1" stop-color="#152331"/>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="adress_to">
+                                <!-- <input type="text" id="destination-input" class="adresss2 controls" name="" placeholder="куда"> -->
+                                <input type="text" tabindex=2 id="destination-input" onchange="changed()"
+                                       class="adresss2 controls" name="to" placeholder=" куда?">
+                            </div>
+                        </div>
+                        <p id="distance-text-uz" style="color:#000;"></p>
+                        <div class="filter_block2">
+                            <div class="select_time">
+                                <div class="select_timeee">
+                                    <p class="date_time"> Выберите время</p>
+                                    <span></span>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <!--  BLock for select time -->
+                                </div>
+                                <div class="select_date_block">
+                                    <input type="text" name="data" id="datepicker"
+                                           placeholder=" Sana tanlamoq">
+                                    <!-- <input type="time" name="time" class="timeee" value='now'> -->
+                                    <!--  <input type="time" name="time" class="timeee" id="timee" value='now'> -->
+
+                                    <input type="time" name="time" id="tim" value="now">
+                                    <input type="hidden" name="vaqti" id="vaqti">
+
+                                    <!-- <input type="submit" name="" value="Выбрать"> -->
+
+                                    <button class="select_btn" type="button">Выбрать</button>
+                                </div>
+                            </div>
+                            <div class="get_phonenumber">
+                                <div class="phone_text">
+                                </div>
+                                <div class="input_phone">
+                                    <input type="tel" name="phone" id="mask1" placeholder="+998 (__) - __ - __"
+                                           required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter_block3">
+                            <div class="filter_block3_left">
+                                <div class="select_timeee">
+                                    <p class="name_gazel">Выберите aвтомобиль</p>
+                                    <span></span>
+
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                                <div class="block_select_pickap open_pickup_menu" style="display:none">
+                                    <div class="select_model">
+                                        <span>Выбрать транспорт</span>
+                                    </div>
+                                    <div class="arrow_left">
+                                        <div class="svg_btn_arrowright" id="arrow_left">
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 185.343 185.343"
+                                                 style="enable-background:new 0 0 185.343 185.343;"
+                                                 xml:space="preserve">
+                                                <path d="M51.707,185.343c-2.741,0-5.493-1.044-7.593-3.149c-4.194-4.194-4.194-10.981,0-15.175
+                                        l74.352-74.347L44.114,18.32c-4.194-4.194-4.194-10.987,0-15.175c4.194-4.194,10.987-4.194,15.18,0l81.934,81.934
+                                        c4.194,4.194,4.194,10.987,0,15.175l-81.934,81.939C57.201,184.293,54.454,185.343,51.707,185.343z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slider_pickup"></div>
+                                    <!-- **************************************************** -->
+                                    <div class="button_for_pickup">
+                                        <div class="arrow_right" id="arrow_right">
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 185.343 185.343"
+                                                 style="enable-background:new 0 0 185.343 185.343;"
+                                                 xml:space="preserve">
+                                                <path d="M51.707,185.343c-2.741,0-5.493-1.044-7.593-3.149c-4.194-4.194-4.194-10.981,0-15.175
+                                    l74.352-74.347L44.114,18.32c-4.194-4.194-4.194-10.987,0-15.175c4.194-4.194,10.987-4.194,15.18,0l81.934,81.934
+                                    c4.194,4.194,4.194,10.987,0,15.175l-81.934,81.939C57.201,184.293,54.454,185.343,51.707,185.343z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="block_pickapp_info">
+                                        <div class="block_pickapp_info_bottom">
+                                            <div class="info_tarif_pick">
+                                                <ul>
+                                                    <li>
+                                                        <p></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter_block3_right">
+                                <div class="input_load">
+                                    <input type="text" name="load_type" id="loadType" placeholder="Yuk turini kiriting!"
+                                           required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter_block4">
+                            <div class="filter_info2">
+                                <div class="pojelaniya">
+                                    <div class="select_time" id="pojelaniya">
+                                        <div class="select_timeee2">
+                                            <p class="date_time">Тип тарифа</p>
+                                            <span></span>
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="select_date_block2">
+                                            <ul id="settings" class="settings"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter_block3_right">
+                                <div>
+                                    <span class="checkbox_simple">
+                                        <input type="checkbox" name="terms" id="terms_checkbox" class="checkk">
+                                        <div class="check_box"></div>
+                                    </span>
+                                    <span style="padding: 8px;">
+                                        Я принимаю
+                                        <a class="btn-link" style="color: #233240;text-decoration: underline!important;"
+                                           target="_blank"
+                                           href="#"> условия</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter_block5">
+                            <div class="filter_info3">
+                                <button class="send_button" type="submit" name=""> Заказать
+                                    <svg width="14" height="14" viewBox="0 0 9 9" fill="none" class="send_button"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.50008 5.04199H0.166748V3.95866H4.50008V0.166992L8.83341 4.50033L4.50008 8.83366V5.04199Z"
+                                              fill="white"/>
+                                    </svg>
+                                    <svg width="14" height="14" viewBox="0 0 9 9" fill="none" class="send_button_svg"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.50008 5.04199H0.166748V3.95866H4.50008V0.166992L8.83341 4.50033L4.50008 8.83366V5.04199Z"
+                                              fill="#EECE21"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- **************************  Inputs FOR SEND INFO ************************ -->
+                    <!-- Input For Date -->
+                    <input class="hidden_input1" style="background: #ccc" type="text" name="">
+                    <!-- ------------------------------------------------------------------- -->
+                    <!-- Input For Time -->
+                    <input class="hidden_input2" style="background: #ccc" type="text" name="">
+                    <!-- -------------------------------------------------------------------- -->
+                    <!-- input for gazel name -->
+                    <input type="text" name="car" class="hidden_input3">
+                    <!-- -------------------------------------------------------------------- -->
+                    <!-- input for gazel name -->
+                    <input type="number" name="price" class="hidden_input6">
+                    <!-- -------------------------------------------------------------------- -->
+                    <!-- Perevozka textarea -->
+                    <textarea class="hidden_input4" name="comment" id="" rows="5"></textarea>
+                    <!-- --------------------------------------------------------------------- -->
+                    <!-- Inputs For Adrees Marshrut -->
+                    <input type="text" class="kuda">
+                    <input type="text" class="otkuda">
+                    <!-- **************************  Inputs FOR SEND INFO END ************************ -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="map_instruction_left">
+        <div class="map">
+            <div id="map" style="width:100%;height:450px;border-radius: 30px;padding: 40px 25px;">
+            </div>
+            <img src="img/balon.png" alt="stop" class="balon_img">
+        </div>
+    </div>
+</section>
+<section class="section_service">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="title_service">Nega aynan TRUCK.UZ ?</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card_first">
+                        <div class="card-header">
+                            <img src="./images/service_first.png" alt="service_first" class="mx-auto d-block">
+                        </div>
+                        <div class="card-title">
+                            <h6>Yuklarni kuzatib borish</h6>
+                        </div>
+                        <div class="card-content">
+                            Onlayn kuzatuv tizimimizdan foydalaning
+                            yukingiz qayerda ekanligini tekshirish uchun.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card_second">
+                        <div class="card-header">
+                            <img src="./images/service_second.png" alt="service_first" class="mx-auto d-block">
+                        </div>
+                        <div class="card-title">
+                            <h6>Qulay aloqa</h6>
+                        </div>
+                        <div class="card-content">
+                            Onlayn kuzatuv tizimimizdan foydalaning
+                            yukingiz qayerda ekanligini tekshirish uchun.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card card_third">
+                        <div class="card-header ">
+                            <img src="./images/service_third.png" alt="service_first" class="mx-auto d-block">
+                        </div>
+                        <div class="card-title">
+                            <h6>Ishonchilik va aniqlik</h6>
+                        </div>
+                        <div class="card-content">
+                            Onlayn kuzatuv tizimimizdan foydalaning
+                            yukingiz qayerda ekanligini tekshirish uchun.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_whoWe">
+    <img src="./images/whoWe_car.png" alt="" class="whoWe_car">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="title_first">
+                    <p>Biz haqimizda</p>
+                </div>
+                <div class="title">
+                    <p>Biz kimmiz ?</p>
+                </div>
+                <div class="content">
+                    TRUCKUZ 2021 yilda boshlangan muhojir tomonidan tashkil etilgan
+                    uning logistika karerasi - yuk mashinasi haydovchisi.
+                    Ko'p yillar davomida tajribali xodimlarimiz yordamida bizda mavjud
+                    eng raqobatbardosh va ishonchli xalqlarga bittadan xalat
+                    AQShning 48 shtatiga xizmat ko'rsatadigan logistika kompaniyalari. Kichik
+                    oilaviy transport kompaniyasi sifatida boshlangan narsa hozirda mavjud
+                    jihozlangan ko'p xizmatli brokerlik firmasiga aylandi kengga qo'shimcha ravishda 50 ta
+                    maxsus yuk mashinalari bilan ishonchli va tajribali sherik doirasi tashuvchilar. Bizning tajribamiz
+                    va ishlash standartlarimiz o'z vaqtida, tez va tejamkor transportni
+                    sug'urtalash yuk, zarar etkazmasdan.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_statistics">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="card_logo"><img src="./images/statics_scale.png" alt="scale"></div>
+                    <div class="card_title">2340</div>
+                    <div class="card_content">tonna yuk yetkazildi</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="card_logo"><img src="./images/statics_user.png" alt="scale"></div>
+                    <div class="card_title">2340</div>
+                    <div class="card_content">kompaniya xodimlari</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="card_logo"><img src="./images/statics_scale.png" alt="scale"></div>
+                    <div class="card_title">2340</div>
+                    <div class="card_content">tonna yuk yetkazildi</div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="card_logo"><img src="./images/statics_star.png" alt="scale"></div>
+                    <div class="card_title">1800</div>
+                    <div class="card_content">mamnun mijozlar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 leftSite">
+                <div class="title_connect">Biz bilan bog’lanish</div>
+                <ul>
+                    <li><span><img src="./images/footer_map.png" alt="Map_Icon"></span> Farg’ona, Yuksalish 195</li>
+                    <li><span><img src="./images/footer_earphones.png" alt="Earphones_Icon"></span> Qo’llab quvvatlash
+                        markazi:
+                        <number>1055</number>
+                        ,
+                        <number>+99833 510-95-95</number>
+                    </li>
+                    <li><span><img src="./images/footer_clock.png" alt="Clock_Icon"></span> Dush - Juma
+                        <number>(9:00 - 17:00)</number>
+                        , Shanba
+                        <number>(9:00 - 15:00)</number>
+                    </li>
+                    <li><span><img src="./images/footer_message.png" alt="Message_Icon"></span>
+                        <number>info@track.uz</number>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-2 col-md-2 col-lg-2  rightSite">
+                <div class="web_link">
+                    <div class="left-line"></div>
+                    <div class="title_menu">
+                        Menyu
+                    </div>
+                    <ul>
+                        <li><a href="">Biz haqimizda</a></li>
+                        <li><a href="">Xizmatlar</a></li>
+                        <li><a href="">Shartnomalar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="link_brend">&copy; 2021 - trackuz</p>
+    </div>
+</section>
+
+</body>
+<script src="js/main.js"></script>
+
+<script src="https://api-maps.yandex.ru/2.1.75/?apikey=bf0d01f7-ecf8-4802-b136-f4c4b9f3cefc
+&lang=ru_RU&onload=onLoad" type="text/javascript"></script>
+
+<script src="https://api-maps.yandex.ru/2.1.75/?apikey=2ab099fd-3d72-4562-b671-f34879c1284d
+&lang=ru_RU&onload=onLoad" type="text/javascript"></script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/inputMask.min.js"></script>
+<script src="js/map2.js"></script>
+<script src="js/date_format.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script src="js/contact_map.js"></script>
+
+<script>
+    $(function () {
+        $("#datepicker").datepicker({
+            minDate: new Date()
+        });
+    });
+
+
+    let linkColorActive = document.querySelectorAll('.nav-link');
+
+    function colorActive() {
+        linkColorActive.forEach(l => l.classList.remove('activeClassForMenu'))
+        this.classList.add('activeClassForMenu')
+    }
+
+    linkColorActive.forEach(l => l.addEventListener('click', colorActive))
+
+
+</script>
+
+<script>
+    $('#mask1').inputmask("+\\9\\98(99) 999-99-99");
+    $('#tell2').inputmask("+\\9\\98(99) 999-99-99");
+    $('#tell3').inputmask("+\\9\\98(99) 999-99-99");
+</script>
+
+<script>
+    <!--    ma'lumotlarni yuborish-->
+    $(function () {
+        $('body').on('click', '.send_button', function (e) {
+            e.preventDefault();
+            let confirm = document.getElementById("terms_checkbox").checked;
+            if (confirm) {
+                let fromLat = document.getElementById("fromlat").value;
+                let fromLng = document.getElementById("fromlng").value;
+                let toLat = document.getElementById("tolat").value;
+                let toLng = document.getElementById("tolng").value;
+                var isSuccess = true
+
+                let qayerdan = fromLat + "," + fromLng
+                let qayerga = toLat + "," + toLng
+                let vaqti = (document.getElementById("vaqti").value + ' ' + document.getElementById("tim").value)
+                let phone = document.getElementById("mask1").value.replaceAll(' ', '').replaceAll('(', '').replaceAll(')', '').replaceAll('-', '')
+                let car_type_id = document.getElementById("selectedtarifid").value
+                let yuk_turi = document.getElementById("loadType").value
+                let tarif_id = document.getElementById("tarif_id").value
+
+                if (fromLng === "" || fromLng === "" || toLat === "" || toLng === "") {
+                    swal("Xato!", "Manzillarni tanlang!", "error");
+                    isSuccess = false
+                }
+                if (vaqti === "") {
+                    swal("Xato!", "Vaqtni tanlang!", "error");
+                    isSuccess = false
+                }
+                if (tarif_id === "") {
+                    swal("Xato!", "Tarifni tanlang!", "error");
+                    isSuccess = false
+                }
+                if (yuk_turi === "") {
+                    swal("Xato!", "Yuk turini yozmadingiz!", "error");
+                    isSuccess = false
+                }
+                if (phone === "" || phone.length !== 13) {
+                    swal("Xato!", "Telefon raqamni kiriting!", "error");
+                    isSuccess = false
+                }
+                if (car_type_id === "") {
+                    swal("Xato!", "Transportni tanlang!", "error");
+                    isSuccess = false
+                }
+                // http://www.labbay-delivery.uz/logistika/web/add_order.php
+                if (isSuccess) {
+                    $.post("http://www.labbay-delivery.uz/logistika/web/add_order.php", JSON.stringify({
+                        qayerdan: qayerdan,
+                        qayerga: qayerga,
+                        vaqti: vaqti,
+                        phone: phone,
+                        car_type_id: car_type_id,
+                        yuk_turi: yuk_turi,
+                        tarif_id: tarif_id
+                    })).done(function () {
+                        swal("Rahmat, sizning buyurtmangiz qabul qilindi.", "Tez orada menejer siz bilan bog'lanadi.");
+                    }).fail(function () {
+                        swal("Xato!", "Barcha maydonlarni to`ldiring!", "error");
+                    });
+                }
+            } else {
+                swal("Xato!", "Shartlarni qabul qilmadingiz!", "error");
+            }
+        });
+    });
+</script>
+</html>

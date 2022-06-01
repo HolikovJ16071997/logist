@@ -1,0 +1,561 @@
+@media (max-width: 575px) {
+    .section_menu {
+        height: 400px !important;
+    }
+
+    .section_menu .navbar {
+
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .section_menu .navbar .navbar-toggler {
+        border-radius: 10px !important;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .section_menu .navbar .navbar-toggler .navbar-toggler-svg img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section_menu .navbar .navbar-toggler:active {
+        box-shadow: 0 0 0 2px #EECE21;
+    }
+
+    .section_menu .navbar .navbar-toggler:focus {
+        border: none !important;
+        outline: none;
+    }
+
+    .section_menu .navbar .collapse {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transition: 0.5s;
+        margin-left: 20px;
+        background: #192734;
+    }
+
+    .section_menu .navbar .collapse .menu_hover_color {
+        display: none;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link {
+        position: relative;
+        width: 90%;
+        left: 75px !important;
+        font-size: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:first-child .nav-link {
+        background: none !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item .nav-link:hover {
+        background: none !important;
+        background-size: 100% 55px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav {
+        position: relative !important;
+        left: 85px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-right: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_user_area {
+        margin-right: 18px;
+    }
+
+    .section_header .leftSite img {
+        width: 150% !important;
+        height: 50% !important;
+        margin: 165px auto 0 0 !important;
+        display: block !important;
+    }
+
+    .section_header .rightSite .brend_area img {
+        float: right !important;
+        width: 120px !important;
+        margin-top: 40px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .section_header .rightSite .text-content h3 {
+        color: #EECE21;
+        font-family: Montserrat-SemiBold, sans-serif;
+        font-size: 20px !important;
+        text-align: right !important;
+        margin-left: -100px !important;
+        display: flex;
+    }
+
+    .section_whoWe {
+        margin-top: 30px;
+    }
+
+    .section_footer .web_link {
+        margin-left: 10px;
+        position: relative;
+        left: -50px;
+    }
+
+    .section_footer .web_link .left-line {
+        display: none;
+    }
+
+    .section_footer .web_link .title_menu {
+        margin-top: 25px;
+        margin-bottom: -15px !important;
+    }
+
+    .map_instruction_left {
+        margin-left: 50px;
+    }
+
+    .map_instruction_left .map_instruction_left {
+        /*width: 100px !important;*/
+    }
+
+    .map_instruction_left .map_instruction_left .map {
+        width: 100px !important;
+    }
+
+    .section_whoWe .rightContent {
+        padding: 0 !important;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section_menu {
+        height: 550px !important;
+    }
+
+    .section_menu .navbar {
+        height: auto !important;
+    }
+
+    .section_menu .navbar .navbar-toggler {
+        border-radius: 10px !important;
+    }
+
+    .section_menu .navbar .navbar-toggler .navbar-toggler-svg img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section_menu .navbar .navbar-toggler:active {
+        box-shadow: 0 0 0 2px #EECE21;
+    }
+
+    .section_menu .navbar .navbar-toggler:focus {
+        border: none !important;
+        outline: none;
+    }
+
+    .section_menu .navbar .collapse {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #192734;
+        margin-left: 22px;
+        width: 200px !important;
+        margin-right: 10px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link {
+        position: relative;
+        width: 90%;
+        left: 75px !important;
+        font-size: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item .nav-link {
+        background: none !important;
+    }
+
+    .section_menu .navbar .collapse .menu_hover_color {
+        display: none;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav {
+        position: relative !important;
+        margin-left: 55px !important;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav-item .nav-link:hover {
+        background: none !important;
+        background-size: 100% 55px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-right: 18px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_user_area {
+        margin-right: 18px;
+    }
+
+    .section_header .leftSite img {
+        width: 120% !important;
+        height: 175px !important;
+        margin: 95px auto 0 0 !important;
+        display: block !important;
+    }
+
+    .section_header .rightSite .brend_area img {
+        width: 70% !important;
+        margin-top: 90px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .section_header .rightSite .text-content h3 {
+        width: 120% !important;
+        color: #EECE21 !important;
+        margin-left: -40px;
+        font-family: Montserrat-SemiBold, sans-serif;
+        font-size: 19px !important;
+    }
+
+    .section_statistics {
+        height: 500px;
+    }
+
+    .section_whoWe .rightContent {
+        padding: 0 !important;
+        margin-top: 40px;
+    }
+
+    .map_instruction_left .map {
+        margin-left: 28px;
+    }
+    .section_footer .rightSite .web_link{
+        margin-left: 0 !important;
+        margin-top: 25px;
+    }
+    .section_footer .rightSite .web_link .left-line {
+        display: none;
+    }
+    .section_footer .rightSite .web_link ul{
+        margin-top: 20px!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .map_instruction_left .map {
+        margin-left: 38px!important;
+    }
+    .section_menu{
+        height: 550px!important;
+    }
+    .section_menu .navbar {
+        height: auto !important;
+    }
+
+    .section_menu .navbar .navbar-toggler {
+        border-radius: 10px !important;
+    }
+
+    .section_menu .navbar .navbar-toggler .navbar-toggler-svg img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section_menu .navbar .navbar-toggler:active {
+        box-shadow: 0 0 0 2px #EECE21;
+    }
+
+    .section_menu .navbar .navbar-toggler:focus {
+        border: none !important;
+        outline: none;
+    }
+
+    .section_menu .navbar .collapse {
+        background: #192734;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 12px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link {
+        position: relative;
+        width: 90%;
+        left: 75px !important;
+        font-size: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item .nav-link {
+        background: none !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav {
+        position: relative !important;
+        margin-left: 55px !important;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-right: 18px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_user_area {
+        margin-right: 18px;
+    }
+
+    .section_header .leftSite img {
+        width: 120% !important;
+        height: 250px !important;
+        margin: 95px auto 0 !important;
+        display: block;
+    }
+
+    .section_header .rightSite .brend_area img {
+        width: 70% !important;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+
+    .section_header .rightSite .text-content h3 {
+
+        position: relative;
+        top: 15px;
+        width: 150%;
+        color: #EECE21;
+        font-family: Montserrat-SemiBold, sans-serif;
+        font-size: 22px !important;
+        margin-left: -100px;
+        /*position: relative;*/
+        /*left: -100px;*/
+    }
+
+    .section_service .card_third {
+        margin: 0 auto !important;
+        display: block;
+    }
+
+    .section_whoWe {
+        margin-top: 70px;
+    }
+
+    .section_statistics {
+        height: 500px;
+    }
+    .section_service .card_third{
+        margin-bottom: 45px!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1101px) {
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-link {
+        font-size: 12px;
+        position: relative;
+        left: -65px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:first-child .nav-link {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:not(:first-child) .nav-link:hover {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-left: -5px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area button {
+        font-size: 10px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_number_area {
+        margin-right: -25px;
+        font-size: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_number_area img {
+        margin-right: -8px !important;
+
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-right: -8px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_user_area {
+        margin-right: -8px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_lang {
+        margin-right: -25px;
+    }
+
+    .section_header .leftSite img {
+        width: 380px;
+        height: 235px;
+        margin: 55px auto 0;
+        margin-left: -15px !important;
+        display: block;
+    }
+
+    .section_header .rightSite .brend_area img {
+        float: right;
+        width: 160px;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+
+    .section_header .rightSite .text-content h3 {
+        width: 150%;
+        color: #EECE21;
+        font-family: Montserrat-SemiBold, sans-serif;
+        font-size: 22px;
+    }
+
+    .section_whoWe {
+        margin-top: 70px;
+    }
+
+    .section_statistics {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1102px) and (max-width: 1180px) {
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-link {
+        font-size: 12px;
+        position: relative;
+        left: -45px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:first-child .nav-link {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:not(:first-child) .nav-link:hover {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_number_area {
+        position: relative;
+        left: 28px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area button {
+        font-size: 12px !important;
+    }
+
+    .section_whoWe {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1199px) {
+    .section_menu .navbar {
+        height: auto !important;
+    }
+
+    .section_menu .navbar .navbar-toggler {
+        border-radius: 10px !important;
+    }
+
+    .section_menu .navbar .navbar-toggler .navbar-toggler-svg img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section_menu .navbar .navbar-toggler:active {
+        box-shadow: 0 0 0 2px #EECE21;
+    }
+
+    .section_menu .navbar .navbar-toggler:focus {
+        border: none !important;
+        outline: none;
+    }
+
+    .section_menu .navbar .collapse {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link {
+        position: relative;
+        left: -95px !important;
+        font-size: 12px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:first-child .nav-link {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:not(:first-child) .nav-link:hover {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav {
+        right: 0 !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_number_area {
+        /*margin-left: 55px;*/
+        position: relative;
+        left: 12px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area {
+        margin-left: -18px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_area button {
+        font-size: 12px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .nav_user_area {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-link {
+        font-size: 13px;
+        position: relative;
+        left: -50px;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:first-child .nav-link {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-link .nav-item:not(:first-child) .nav-link:hover {
+        background-size: 100% 40px !important;
+        background-position: 0 -7px !important;
+    }
+
+    .section_menu .navbar .collapse .collapse__navbar-nav .call_number_area {
+        position: relative;
+        left: 15px;
+    }
+
+    .section_whoWe {
+        margin-top: 70px;
+    }
+}
